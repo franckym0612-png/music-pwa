@@ -1,0 +1,51 @@
+{
+  "name": "Mes Albums",
+  "short_name": "Albums",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#9333ea",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+```
+
+4. **"Commit new file"**
+
+---
+
+### **Étape 3 : Ajoutez les icônes (optionnel pour commencer)**
+
+Pour les icônes, on reviendra plus tard. Pour l'instant, Vercel pourra déployer sans elles.
+
+---
+
+### **Étape 4 : Déployez sur Vercel** 🚀
+
+1. Allez sur https://vercel.com
+2. Cliquez **"Sign Up"** et choisissez **"Continue with GitHub"**
+3. Autorisez Vercel à accéder à vos dépôts GitHub
+4. Sur le tableau de bord Vercel, cliquez **"Add New Project"**
+5. Sélectionnez votre dépôt **"music-pwa"**
+6. Vercel détecte automatiquement que c'est un projet Vite
+7. Cliquez **"Deploy"** (ne touchez à rien d'autre)
+
+⏱️ **Attendez 2-3 minutes...**
+
+---
+
+### **🎉 C'EST EN LIGNE !**
+
+Vercel vous donnera une URL comme :
+```
+https://music-pwa-votreusername.vercel.app
